@@ -15,7 +15,7 @@ const App=() =>{
     
     let count=0
 
-    const returnedCount=taskData.map(each=>{
+    taskData.map(each=>{
       
       if (each.task===event.target.value){
         count+=1
